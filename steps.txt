@@ -2,8 +2,5 @@
 npm install -g karma-cli
 #LOCAL
 npm init
-npm install angular --save
-npm install -g karma
-npm install karma-jasmine jasmine-core --save-dev
-npm install angular-mocks --save-dev
-npm install karma-phantomjs-launcher --save-dev
+npm install angular httpster --save
+npm install karma karma-jasmine jasmine-core karma-phantomjs-launcher angular-mocks --save-dev

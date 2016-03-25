@@ -4,8 +4,8 @@
   "authors": [
     "John Machahuay <john.cfmr.2009@gmail.com>"
   ],
-  "license": "MIT",
   "dependencies": {
+    "angular": "1.4.4",
     "angular-ui-router": "~0.2.15",
     "bootstrap": "~3.3.5"
   }

@@ -6,6 +6,10 @@ describe('Filters: reverse', function(){ //describe your object type
             reverse = $filter('reverse',{});
         }));
         
+        it('has a reverse filter', inject(function($filter) {
+	        expect($filter('reverse')).not.toBeNull();
+	    }));
+	        
         it('Should reverse a string', function(){  //write tests
             expect(reverse('john')).toBe('nhoj'); //pass
         }); 

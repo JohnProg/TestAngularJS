@@ -7,6 +7,7 @@ angular.module('MyApp', [
                 url: '/',
                 templateUrl: 'templates/index.tpl.html',
                 controller: function($scope) {
+                    $scope.name = "john";
                     $scope.updateMessageText = function(text) {
                         $scope.messageText = text;
                     }

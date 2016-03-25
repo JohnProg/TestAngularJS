@@ -8,15 +8,15 @@
   },
   "author": "John Machahuay Giraldo",
   "dependencies": {
-    "angular": "^1.4.4",
-    "httpster": "^1.0.1"
+    "angular": "1.4.4",
+    "httpster": "^1.0.3"
   },
   "devDependencies": {
-    "angular-mocks": "^1.4.4",
-    "jasmine-core": "^2.3.4",
-    "karma": "^0.13.9",
-    "karma-jasmine": "^0.3.6",
-    "karma-phantomjs-launcher": "^0.2.1",
-    "phantomjs": "^1.9.18"
+    "angular-mocks": "1.4.4",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.6"
   }
 }
