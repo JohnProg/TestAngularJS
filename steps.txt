@@ -1,6 +1,14 @@
 #GLOBAL
 npm install -g karma-cli
+npm install -g protractor
 #LOCAL
-npm init
-npm install angular httpster --save
-npm install karma karma-jasmine jasmine-core karma-phantomjs-launcher angular-mocks --save-dev
+npm install
+
+# Run unit Tests
+karma start
+
+# Install Selenium standalone server and the chrome driver
+sudo webdriver-manager update
+
+# Run tests with protractor
+protractor tests/e2e/protractor.conf.js
